@@ -20,12 +20,7 @@ void modifyFrequencies(std::vector<double>& data, double sampleRate)
         out[i] = 0;
     }
 
-    // Perform inverse FFT
     data = inversFFT(out);
-
-    // Copy back the modified data and normalize
-
-
 }
 
 
