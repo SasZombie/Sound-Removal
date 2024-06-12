@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wformat-nonliteral -Wcast-align -Wpointer-arith -Wmissing-declarations -Winline -Wundef -Wcast-qual -Wshadow -Wwrite-strings -Wno-unused-parameter -Wfloat-equal -pedantic -ansi -fsanitize=address -fsanitize=leak CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/home/sas/Coding/fft/fft.cpp.o -o build/main  -lraylib -lGL -lm -lpthread -ldl -lrt -lX11

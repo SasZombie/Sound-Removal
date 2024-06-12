@@ -1,0 +1,3 @@
+/home/sas/Coding/Sound-Removal/CMakeFiles/main.dir
+/home/sas/Coding/Sound-Removal/CMakeFiles/edit_cache.dir
+/home/sas/Coding/Sound-Removal/CMakeFiles/rebuild_cache.dir
