@@ -165,7 +165,8 @@ CMakeFiles/main.dir/main.cpp.o: /home/sas/Coding/Sound-Removal/main.cpp \
  /usr/include/c++/14.1.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.1.1/bits/unicode-data.h \
  /usr/include/c++/14.1.1/bits/ostream.tcc /usr/include/c++/14.1.1/istream \
- /usr/include/c++/14.1.1/bits/istream.tcc \
+ /usr/include/c++/14.1.1/bits/istream.tcc /usr/include/c++/14.1.1/cstring \
+ /usr/include/string.h /usr/include/strings.h \
  /home/sas/Coding/Sound-Removal/../../raylib-cpp/include/raylib-cpp.hpp \
  /home/sas/Coding/Sound-Removal/../../raylib-cpp/include/./AudioDevice.hpp \
  /home/sas/Coding/Sound-Removal/../../raylib-cpp/include/././raylib.hpp \

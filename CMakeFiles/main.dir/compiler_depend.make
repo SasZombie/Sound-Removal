@@ -503,6 +503,7 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /usr/include/c++/14.1.1/cstdint \
   /usr/include/c++/14.1.1/cstdio \
   /usr/include/c++/14.1.1/cstdlib \
+  /usr/include/c++/14.1.1/cstring \
   /usr/include/c++/14.1.1/ctime \
   /usr/include/c++/14.1.1/cwchar \
   /usr/include/c++/14.1.1/cwctype \
@@ -587,6 +588,8 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
@@ -599,11 +602,17 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h
 
 
+/usr/include/strings.h:
+
+/usr/include/string.h:
+
 /usr/include/raymath.h:
 
 /usr/include/c++/14.1.1/utility:
 
 /usr/include/c++/14.1.1/math.h:
+
+/usr/include/c++/14.1.1/cstring:
 
 /home/sas/raylib-cpp/include/raylib-cpp.hpp:
 
