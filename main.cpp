@@ -21,6 +21,7 @@ void modifyFrequencies(std::vector<double>& data, double sampleRate)
     size_t lowBin = static_cast<size_t>(lowFreq / freqResolution);
     size_t highBin = static_cast<size_t>(highFreq / freqResolution);
 
+    
     for (size_t i = lowBin; i < highBin && i < N; ++i) 
     {
         out[i] = 0;
@@ -59,14 +60,13 @@ int main()
     window.SetTargetFPS(60);
 
     raylib::AudioDevice device;
-    raylib::Music music{"song.wav"};
+    raylib::Music music{"That Poppy - Lowlife (Official Video).wav"};
     music.Play();
     music.SetVolume(1);
 
     gSampleRate = music.stream.sampleRate;
     gSize = music.stream.sampleSize;
     AttachAudioStreamProcessor(music.stream, callback);
-    // SetAudioStreamCallback(music.stream, callback);
     raylib::Rectangle lowBand(0, height/2, width, 10);
     raylib::Rectangle highBand(0, height/2 + 30, width, 10);
 
